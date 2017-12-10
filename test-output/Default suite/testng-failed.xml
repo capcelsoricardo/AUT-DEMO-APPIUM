@@ -3,12 +3,12 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="mtp.com.br.PrimeiroTeste">
+      <class name="openshopio.tests.SegundoTeste">
         <methods>
           <include name="SetUp"/>
           <include name="PrimeiroTeste"/>
         </methods>
-      </class> <!-- mtp.com.br.PrimeiroTeste -->
+      </class> <!-- openshopio.tests.SegundoTeste -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

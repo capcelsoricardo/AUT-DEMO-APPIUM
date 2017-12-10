@@ -23,7 +23,7 @@ public class SetUp {
 		File arquivoCompleto = new File("src/main/java/Openshop_io_2_0_v1.8.3.apk");				
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);				
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "vbox86p");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
 		cap.setCapability("appPackage", "bf.io.openshop");		
 		cap.setCapability("appActivity", "com.asymbo.activity.HomepageActivity_");	
 		//cap.setCapability("noReset", true);
