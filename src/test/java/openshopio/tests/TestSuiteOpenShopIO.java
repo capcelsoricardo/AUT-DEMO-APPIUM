@@ -2,17 +2,16 @@ package openshopio.tests;
 
 import java.net.MalformedURLException;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
+
 import openshopio.pages.PageBemVindo;
 import openshopio.setup.SetUp;
 
-public class SegundoTeste extends SetUp {
+public class TestSuiteOpenShopIO extends SetUp {		
 	
 	@Test
 	public void PrimeiroTeste() throws MalformedURLException {										
 		PageBemVindo pageBemVindo = new PageBemVindo(driver);
-		pageBemVindo.ClickButtonOk();		
-	}		
-	
-	
+		pageBemVindo.clickButtonSkip();		
+	}				
 }
